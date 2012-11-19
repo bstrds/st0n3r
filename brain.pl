@@ -87,7 +87,7 @@ sub trytoanswer {
 
 	#now for the fun part...(feel free to uncomment the addanswer sub...)
 	if ($flog == 0) {
-	&addanswer;
+	#&addanswer;
 	}
 }
 
