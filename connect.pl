@@ -97,7 +97,7 @@ sub connect {
 
 #a termination function, called bu the '!fuckoff' command
 sub quitt {
-print $con "QUIT :Leaving.!\r\n";
+print $con "QUIT :ohnoes!\r\n";
 print "exit ...\n";
 }
 					
