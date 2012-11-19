@@ -8,7 +8,7 @@ use String::Similarity;
 sub trytoanswer {
 	
 	#just open the DATABASE
-	dbmopen(%brn, "brainz", 0666); 
+	dbmopen(%brn, "testbrain", 0666); 
 
 	#flag
 	my $flog = 0;
